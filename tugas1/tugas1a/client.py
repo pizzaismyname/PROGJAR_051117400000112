@@ -9,13 +9,17 @@ print(f"connecting to {server_address}")
 sock.connect(server_address)
 
 try:
-    filename = 'file.txt'
-    f = open(filename, 'rb')
-    length = f.read(1024)
-    while length:
-        sock.send(length)
+    filename = input("Masukkan nama file: ")
+    try:
+        f = open(filename, 'rb')
+    except:
+        print("Cannot open file")
+    else:
         length = f.read(1024)
-    f.close()
+        while length:
+            sock.send(length)
+            length = f.read(1024)
+        f.close()
 finally:
     print("closing")
     sock.close()

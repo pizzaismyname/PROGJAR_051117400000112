@@ -15,7 +15,6 @@ def create_socket(TCP_PORT):
     while True:
         # Wait for a connection
         print("waiting for a connection")
-        print("")
         connection, client_address = sock.accept()
         print(f"connection from {client_address}")
         # Receive the data in small chunks and retransmit it
