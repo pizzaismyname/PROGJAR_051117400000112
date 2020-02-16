@@ -17,14 +17,12 @@ def create_socket(TCP_PORT):
         print("waiting for a connection")
         connection, client_address = sock.accept()
         print(f"connection from {client_address}")
-        # Receive filename
+        # Receive the data in small chunks and retransmit it
         filename = connection.recv(32)
-        print("receiving file name:", filename)
-        # Send file
         try:
             f = open(filename, 'rb')
         except:
-            print("cannot open file")
+            print("Cannot open file")
         else:
             length = f.read(1024)
             while length:
