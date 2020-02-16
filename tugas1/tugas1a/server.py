@@ -17,13 +17,13 @@ def create_socket(TCP_PORT):
         print("waiting for a connection")
         connection, client_address = sock.accept()
         print(f"connection from {client_address}")
-        # Receive the data in small chunks and retransmit it
+        # Receive file
         with open('received_file', 'wb') as f:
             while True:
                 data = connection.recv(1024)
                 if not data:
                     break
-                # write data to a file
+                # Write data to a file
                 f.write(data)
         f.close()
         # Clean up the connection
