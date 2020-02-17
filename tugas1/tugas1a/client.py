@@ -4,16 +4,17 @@ import socket
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 # Connect the socket to the port where the server is listening
-server_address = ('localhost', 31000)
+server_address = ('localhost', 10000)
 print(f"connecting to {server_address}")
 sock.connect(server_address)
 
 try:
-    filename = input("Masukkan nama file: ")
+    # Send file
+    filename = input("enter filename: ")
     try:
         f = open(filename, 'rb')
     except:
-        print("Cannot open file")
+        print("cannot open file")
     else:
         length = f.read(1024)
         while length:
