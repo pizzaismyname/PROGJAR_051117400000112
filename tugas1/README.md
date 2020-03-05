@@ -7,11 +7,9 @@
 ![2_2](screenshot/2_2.png)
 ![2_3](screenshot/2_3.png)
 - Jalankan program server.py di 3 port yang berbeda di 2 komputer yang berbeda  
-![3_1](screenshot/3_1.jpg)
+![3_1](screenshot/3_1.png)
 - Jalankan program client.py untuk konek ke server pada poin sebelumnya, kirimkan string yang sama  
 ![4_1](screenshot/4_1.png)
-![4_2](screenshot/4_2.png)
-![4_3](screenshot/4_3.png)
 - MODIFIKASILAH program client.py dan server.py agar dapat MENTRANSFER file dari client ke server (letakkan program modifikasi di direktori tugas1a)  
 ![6_1](screenshot/6_1.png)
 ![6_2](screenshot/6_2.png)
