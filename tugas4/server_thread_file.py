@@ -17,13 +17,13 @@ class ProcessTheClient(threading.Thread):
         threading.Thread.__init__(self)
 
     def run(self):
-        file = (b"")
+        temp = (b"")
         test = []
         while True:
             while True:
                 data = self.connection.recv(1024)
 
-                file = file + data
+                temp = temp + data
                 test.append(data)
                 size = int(sys.getsizeof(data))
 
@@ -31,7 +31,7 @@ class ProcessTheClient(threading.Thread):
                     break
                 else :
                     self.connection.sendall(b"OK")
-            data = file
+            data = temp
 
             if data:
                 d = data.decode()

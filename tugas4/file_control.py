@@ -22,7 +22,7 @@ class File:
         f.close()
         hasil = base64.encodestring(l)
         temp.append(hasil.decode())
-        return hasil
+        return temp
 
     def list_files(self):
         file_list = os.listdir("files")

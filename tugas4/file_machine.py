@@ -20,7 +20,7 @@ class FileMachine:
                 logging.warning("download")
                 namafile = cstring[1].strip()
                 hasil = f.download_file(namafile)
-                return hasil
+                return hasil[0]
             elif (command=='list'):
                 logging.warning("list")
                 hasil = f.list_files()
