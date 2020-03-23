@@ -23,9 +23,9 @@ class FileMachine:
                 return hasil[0]
             elif (command=='list'):
                 logging.warning("list")
-                hasil = f.list_files()
-                dict = {"filename":hasil}
-                return json.dumps(dict)
+                namafile = f.list_files()
+                hasil = {"filename":namafile}
+                return json.dumps(hasil, indent=4)
             else:
                 return "ERRCMD"
         except:

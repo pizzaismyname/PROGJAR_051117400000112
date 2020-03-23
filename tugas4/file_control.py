@@ -12,7 +12,7 @@ class File:
     def upload_file(self,namafile=None,isifile=None):
         data_file = isifile
         f = open("files/"+namafile,"wb")
-        f.write(base64.decodestring(data_file))
+        f.write(base64.b64decode(data_file))
         return True
 
     def download_file(self,namafile=None):
@@ -20,7 +20,7 @@ class File:
         f = open("files/" + namafile, "rb")
         l = f.read()
         f.close()
-        hasil = base64.encodestring(l)
+        hasil = base64.b64encode(l)
         temp.append(hasil.decode())
         return temp
 

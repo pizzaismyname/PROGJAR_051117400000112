@@ -18,7 +18,6 @@ try:
     except:
         print("cannot open file")
     else:
-        length = len(filename) + 1
         content = base64.b64encode(f.read())
         f.close()
         f = open("temp","wb")
