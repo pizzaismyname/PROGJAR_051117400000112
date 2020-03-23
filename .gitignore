@@ -1,3 +1,5 @@
 venv/
 .idea/
 .directory
+.vscode/
+tugas4/__pycache__
