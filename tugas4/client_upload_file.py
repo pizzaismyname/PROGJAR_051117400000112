@@ -30,9 +30,9 @@ try:
             sock.send(request)
             request = f.read(1024)
             response = sock.recv(1024)
-        print(response)
         f.close()
         os.remove("temp")
+        print(response)
 finally:
     print("closing")
     sock.close()
