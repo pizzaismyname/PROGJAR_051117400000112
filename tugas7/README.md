@@ -2,6 +2,8 @@
 
 ## Performance Test
 
+[Server yang ditest](../tugas6/server_thread_http.py)
+
 ### Keluaran Hasil
 
 | No test | Concurrency level | Time taken for test (seconds) | Complete request | Failed request | Total transferred (bytes) | Request per second | Time per request (ms) | Transfer rate (Kbytes/sec) |
