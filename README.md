@@ -8,3 +8,5 @@ Pristi Zahara
 [Tugas 3](https://github.com/pizzaismyname/PROGJAR_051117400000112/tree/master/tugas3)  
 [Tugas 4](https://github.com/pizzaismyname/PROGJAR_051117400000112/tree/master/tugas4)  
 [Tugas 5](https://github.com/pizzaismyname/PROGJAR_051117400000112/tree/master/tugas5)  
+[Tugas 6](https://github.com/pizzaismyname/PROGJAR_051117400000112/tree/master/tugas6)  
+[Tugas 7](https://github.com/pizzaismyname/PROGJAR_051117400000112/tree/master/tugas7)  
