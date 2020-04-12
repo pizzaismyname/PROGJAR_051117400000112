@@ -3,6 +3,7 @@
 ## Performance Test
 
 ### Keluaran Hasil
+
 | No test | Concurrency level | Time taken for test (seconds) | Complete request | Failed request | Total transferred (bytes) | Request per second | Time per request (ms) | Transfer rate (Kbytes/sec) |
 |:-------:|:-----------------:|:-----------------------------:|:----------------:|:--------------:|:-------------------------:|:------------------:|:---------------------:|:--------------------------:|
 |    1    |         1         |             0.043             |        10        |        0       |            1360           |       232.56       |         4.300         |            30.89           |
