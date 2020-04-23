@@ -32,10 +32,10 @@ class HttpServer:
 	def proses(self,data):
 
 		requests = data.split("\r\n")
-		print(requests)
+		# print(requests)
 
 		baris = requests[0]
-		print(baris)
+		# print(baris)
 
 		all_headers = [n for n in requests[1:] if n!='']
 
@@ -68,8 +68,13 @@ class HttpServer:
 
 		return self.response(200,'OK',isi,headers)
 	def http_post(self,object_address,headers):
+		isi=""
+		for header in headers:
+			if "kirim" in header:
+				val = header.split("=")
+				header="\n"+val[1]
+			isi=isi+header+"\n"
 		headers={}
-		isi = "kosong"
 		return self.response(200,'OK',isi,headers)
 
 
