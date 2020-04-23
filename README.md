@@ -10,3 +10,4 @@ Pristi Zahara
 [Tugas 5](/tugas5)  
 [Tugas 6](/tugas6)  
 [Tugas 7](/tugas7)  
+[Tugas 8](/tugas8)  
