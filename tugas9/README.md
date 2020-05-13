@@ -5,7 +5,7 @@
   - [Server_thread_http.py](../tugas9/server_thread_http.py) di port 46000
 - Ujicobalah dengan apache benchmark untuk 1000 request dan konkurensi yang bervariasi  
   - [Screenshot server_async_http.py](https://htmlpreview.github.io/?https://github.com/pizzaismyname/PROGJAR_051117400000112/blob/master/tugas9/screenshot/server_async_http.html)
-  - 
+  - [Screenshot server_thread_http.py](https://htmlpreview.github.io/?https://github.com/pizzaismyname/PROGJAR_051117400000112/blob/master/tugas9/screenshot/server_thread_http.html)
 - Tabel hasil ujicoba
   - Server Asynchronous HTTP  
     | No test | Concurrency level | Time taken for test (seconds) | Complete request | Failed request | Total transferred (bytes) | Request per second | Time per request (ms) | Transfer rate (Kbytes/sec) |

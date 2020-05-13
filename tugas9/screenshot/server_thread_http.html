@@ -1,0 +1,336 @@
+<body style="font-family:'Hack',monospace;font-size:9pt;color:#ffffff;background-color:#000000;"><span style="font-weight:bold;color:#54ff54;background-color:#000000;">pristiz@pristiz</span><span style="color:#ffffff;background-color:#000000;">:</span><span style="font-weight:bold;color:#5454ff;background-color:#000000;">~</span><span style="color:#ffffff;background-color:#000000;">$ ab -n 1000 -c 1 -r -k -s 99999 http://127.0.0.1:46000/ &#160;</span><br>This is ApacheBench, Version 2.3 &lt;$Revision: 1843412 $&gt;
+<br>Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+<br>Licensed to The Apache Software Foundation, http://www.apache.org/
+<br>
+<br>Benchmarking 127.0.0.1 (be patient)
+<br>Completed 100 requests
+<br>Completed 200 requests
+<br>Completed 300 requests
+<br>Completed 400 requests
+<br>Completed 500 requests
+<br>Completed 600 requests
+<br>Completed 700 requests
+<br>Completed 800 requests
+<br>Completed 900 requests
+<br>Completed 1000 requests
+<br>Finished 1000 requests
+<br>
+<br>
+<br>Server Software: &#160;&#160;&#160;&#160;&#160;&#160;&#160;myserver/1.0
+<br>Server Hostname: &#160;&#160;&#160;&#160;&#160;&#160;&#160;127.0.0.1
+<br>Server Port: &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;46000
+<br>
+<br>Document Path: &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/
+<br>Document Length: &#160;&#160;&#160;&#160;&#160;&#160;&#160;4 bytes
+<br>
+<br>Concurrency Level: &#160;&#160;&#160;&#160;&#160;1
+<br>Time taken for tests: &#160;&#160;409.798 seconds
+<br>Complete requests: &#160;&#160;&#160;&#160;&#160;1000
+<br>Failed requests: &#160;&#160;&#160;&#160;&#160;&#160;&#160;0
+<br>Non-2xx responses: &#160;&#160;&#160;&#160;&#160;1000
+<br>Keep-Alive requests: &#160;&#160;&#160;0
+<br>Total transferred: &#160;&#160;&#160;&#160;&#160;122000 bytes
+<br>HTML transferred: &#160;&#160;&#160;&#160;&#160;&#160;4000 bytes
+<br>Requests per second: &#160;&#160;&#160;2.44 [#/sec] (mean)
+<br>Time per request: &#160;&#160;&#160;&#160;&#160;&#160;409.798 [ms] (mean)
+<br>Time per request: &#160;&#160;&#160;&#160;&#160;&#160;409.798 [ms] (mean, across all concurrent requests)
+<br>Transfer rate: &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0.29 [Kbytes/sec] received
+<br>
+<br>Connection Times (ms)
+<br> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;min &#160;mean[+/-sd] median &#160;&#160;max
+<br>Connect: &#160;&#160;&#160;&#160;&#160;&#160;&#160;0 &#160;&#160;&#160;0 &#160;&#160;0.0 &#160;&#160;&#160;&#160;&#160;0 &#160;&#160;&#160;&#160;&#160;&#160;0
+<br>Processing: &#160;&#160;&#160;&#160;2 &#160;410 272.8 &#160;&#160;&#160;357 &#160;&#160;&#160;2036
+<br>Waiting: &#160;&#160;&#160;&#160;&#160;&#160;&#160;2 &#160;386 261.0 &#160;&#160;&#160;333 &#160;&#160;&#160;2013
+<br>Total: &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;3 &#160;410 272.8 &#160;&#160;&#160;357 &#160;&#160;&#160;2036
+<br>
+<br>Percentage of the requests served within a certain time (ms)
+<br> &#160;50% &#160;&#160;&#160;357
+<br> &#160;66% &#160;&#160;&#160;489
+<br> &#160;75% &#160;&#160;&#160;580
+<br> &#160;80% &#160;&#160;&#160;637
+<br> &#160;90% &#160;&#160;&#160;778
+<br> &#160;95% &#160;&#160;&#160;894
+<br> &#160;98% &#160;&#160;1082
+<br> &#160;99% &#160;&#160;1255
+<br> 100% &#160;&#160;2036 (longest request)
+<br><span style="font-weight:bold;color:#54ff54;background-color:#000000;">pristiz@pristiz</span><span style="color:#ffffff;background-color:#000000;">:</span><span style="font-weight:bold;color:#5454ff;background-color:#000000;">~</span><span style="color:#ffffff;background-color:#000000;">$ ab -n 1000 -c 5 -r -k -s 99999 http://127.0.0.1:46000/ &#160;</span><br>This is ApacheBench, Version 2.3 &lt;$Revision: 1843412 $&gt;
+<br>Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+<br>Licensed to The Apache Software Foundation, http://www.apache.org/
+<br>
+<br>Benchmarking 127.0.0.1 (be patient)
+<br>Completed 100 requests
+<br>Completed 200 requests
+<br>Completed 300 requests
+<br>Completed 400 requests
+<br>Completed 500 requests
+<br>Completed 600 requests
+<br>Completed 700 requests
+<br>Completed 800 requests
+<br>Completed 900 requests
+<br>Completed 1000 requests
+<br>Finished 1000 requests
+<br>
+<br>
+<br>Server Software: &#160;&#160;&#160;&#160;&#160;&#160;&#160;myserver/1.0
+<br>Server Hostname: &#160;&#160;&#160;&#160;&#160;&#160;&#160;127.0.0.1
+<br>Server Port: &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;46000
+<br>
+<br>Document Path: &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/
+<br>Document Length: &#160;&#160;&#160;&#160;&#160;&#160;&#160;4 bytes
+<br>
+<br>Concurrency Level: &#160;&#160;&#160;&#160;&#160;5
+<br>Time taken for tests: &#160;&#160;180.725 seconds
+<br>Complete requests: &#160;&#160;&#160;&#160;&#160;1000
+<br>Failed requests: &#160;&#160;&#160;&#160;&#160;&#160;&#160;0
+<br>Non-2xx responses: &#160;&#160;&#160;&#160;&#160;1000
+<br>Keep-Alive requests: &#160;&#160;&#160;0
+<br>Total transferred: &#160;&#160;&#160;&#160;&#160;122000 bytes
+<br>HTML transferred: &#160;&#160;&#160;&#160;&#160;&#160;4000 bytes
+<br>Requests per second: &#160;&#160;&#160;5.53 [#/sec] (mean)
+<br>Time per request: &#160;&#160;&#160;&#160;&#160;&#160;903.624 [ms] (mean)
+<br>Time per request: &#160;&#160;&#160;&#160;&#160;&#160;180.725 [ms] (mean, across all concurrent requests)
+<br>Transfer rate: &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0.66 [Kbytes/sec] received
+<br>
+<br>Connection Times (ms)
+<br> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;min &#160;mean[+/-sd] median &#160;&#160;max
+<br>Connect: &#160;&#160;&#160;&#160;&#160;&#160;&#160;0 &#160;113 477.1 &#160;&#160;&#160;&#160;&#160;0 &#160;&#160;&#160;7273
+<br>Processing: &#160;&#160;&#160;&#160;4 &#160;786 505.1 &#160;&#160;&#160;689 &#160;&#160;&#160;2772
+<br>Waiting: &#160;&#160;&#160;&#160;&#160;&#160;&#160;3 &#160;759 490.2 &#160;&#160;&#160;673 &#160;&#160;&#160;2708
+<br>Total: &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;4 &#160;899 727.3 &#160;&#160;&#160;745 &#160;&#160;&#160;8841
+<br>
+<br>Percentage of the requests served within a certain time (ms)
+<br> &#160;50% &#160;&#160;&#160;745
+<br> &#160;66% &#160;&#160;1036
+<br> &#160;75% &#160;&#160;1203
+<br> &#160;80% &#160;&#160;1356
+<br> &#160;90% &#160;&#160;1760
+<br> &#160;95% &#160;&#160;2054
+<br> &#160;98% &#160;&#160;2476
+<br> &#160;99% &#160;&#160;3028
+<br> 100% &#160;&#160;8841 (longest request)
+<br><span style="font-weight:bold;color:#54ff54;background-color:#000000;">pristiz@pristiz</span><span style="color:#ffffff;background-color:#000000;">:</span><span style="font-weight:bold;color:#5454ff;background-color:#000000;">~</span><span style="color:#ffffff;background-color:#000000;">$ ab -n 1000 -c 10 -r -k -s 99999 http://127.0.0.1:46000/ &#160;</span><br>This is ApacheBench, Version 2.3 &lt;$Revision: 1843412 $&gt;
+<br>Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+<br>Licensed to The Apache Software Foundation, http://www.apache.org/
+<br>
+<br>Benchmarking 127.0.0.1 (be patient)
+<br>Completed 100 requests
+<br>Completed 200 requests
+<br>Completed 300 requests
+<br>Completed 400 requests
+<br>Completed 500 requests
+<br>Completed 600 requests
+<br>Completed 700 requests
+<br>Completed 800 requests
+<br>Completed 900 requests
+<br>Completed 1000 requests
+<br>Finished 1000 requests
+<br>
+<br>
+<br>Server Software: &#160;&#160;&#160;&#160;&#160;&#160;&#160;myserver/1.0
+<br>Server Hostname: &#160;&#160;&#160;&#160;&#160;&#160;&#160;127.0.0.1
+<br>Server Port: &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;46000
+<br>
+<br>Document Path: &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/
+<br>Document Length: &#160;&#160;&#160;&#160;&#160;&#160;&#160;4 bytes
+<br>
+<br>Concurrency Level: &#160;&#160;&#160;&#160;&#160;10
+<br>Time taken for tests: &#160;&#160;184.945 seconds
+<br>Complete requests: &#160;&#160;&#160;&#160;&#160;1000
+<br>Failed requests: &#160;&#160;&#160;&#160;&#160;&#160;&#160;9
+<br> &#160;&#160;(Connect: 0, Receive: 3, Length: 3, Exceptions: 3)
+<br>Non-2xx responses: &#160;&#160;&#160;&#160;&#160;997
+<br>Keep-Alive requests: &#160;&#160;&#160;0
+<br>Total transferred: &#160;&#160;&#160;&#160;&#160;121634 bytes
+<br>HTML transferred: &#160;&#160;&#160;&#160;&#160;&#160;3988 bytes
+<br>Requests per second: &#160;&#160;&#160;5.41 [#/sec] (mean)
+<br>Time per request: &#160;&#160;&#160;&#160;&#160;&#160;1849.452 [ms] (mean)
+<br>Time per request: &#160;&#160;&#160;&#160;&#160;&#160;184.945 [ms] (mean, across all concurrent requests)
+<br>Transfer rate: &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0.64 [Kbytes/sec] received
+<br>
+<br>Connection Times (ms)
+<br> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;min &#160;mean[+/-sd] median &#160;&#160;max
+<br>Connect: &#160;&#160;&#160;&#160;&#160;&#160;&#160;0 &#160;814 2269.6 &#160;&#160;&#160;&#160;&#160;0 &#160;&#160;15497
+<br>Processing: &#160;&#160;&#160;&#160;4 1009 1767.2 &#160;&#160;&#160;841 &#160;&#160;31569
+<br>Waiting: &#160;&#160;&#160;&#160;&#160;&#160;&#160;3 &#160;890 549.6 &#160;&#160;&#160;812 &#160;&#160;&#160;3640
+<br>Total: &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;4 1823 2931.5 &#160;&#160;1128 &#160;&#160;31569
+<br>
+<br>Percentage of the requests served within a certain time (ms)
+<br> &#160;50% &#160;&#160;1128
+<br> &#160;66% &#160;&#160;1566
+<br> &#160;75% &#160;&#160;1847
+<br> &#160;80% &#160;&#160;2145
+<br> &#160;90% &#160;&#160;3512
+<br> &#160;95% &#160;&#160;5193
+<br> &#160;98% &#160;&#160;9367
+<br> &#160;99% &#160;16992
+<br> 100% &#160;31569 (longest request)
+<br><span style="font-weight:bold;color:#54ff54;background-color:#000000;">pristiz@pristiz</span><span style="color:#ffffff;background-color:#000000;">:</span><span style="font-weight:bold;color:#5454ff;background-color:#000000;">~</span><span style="color:#ffffff;background-color:#000000;">$ ab -n 1000 -c 30 -r -k -s 99999 http://127.0.0.1:46000/ &#160;</span><br>This is ApacheBench, Version 2.3 &lt;$Revision: 1843412 $&gt;
+<br>Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+<br>Licensed to The Apache Software Foundation, http://www.apache.org/
+<br>
+<br>Benchmarking 127.0.0.1 (be patient)
+<br>Completed 100 requests
+<br>Completed 200 requests
+<br>Completed 300 requests
+<br>Completed 400 requests
+<br>Completed 500 requests
+<br>Completed 600 requests
+<br>Completed 700 requests
+<br>Completed 800 requests
+<br>Completed 900 requests
+<br>Completed 1000 requests
+<br>Finished 1000 requests
+<br>
+<br>
+<br>Server Software: &#160;&#160;&#160;&#160;&#160;&#160;&#160;myserver/1.0
+<br>Server Hostname: &#160;&#160;&#160;&#160;&#160;&#160;&#160;127.0.0.1
+<br>Server Port: &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;46000
+<br>
+<br>Document Path: &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/
+<br>Document Length: &#160;&#160;&#160;&#160;&#160;&#160;&#160;4 bytes
+<br>
+<br>Concurrency Level: &#160;&#160;&#160;&#160;&#160;30
+<br>Time taken for tests: &#160;&#160;170.246 seconds
+<br>Complete requests: &#160;&#160;&#160;&#160;&#160;1000
+<br>Failed requests: &#160;&#160;&#160;&#160;&#160;&#160;&#160;111
+<br> &#160;&#160;(Connect: 0, Receive: 37, Length: 37, Exceptions: 37)
+<br>Non-2xx responses: &#160;&#160;&#160;&#160;&#160;963
+<br>Keep-Alive requests: &#160;&#160;&#160;0
+<br>Total transferred: &#160;&#160;&#160;&#160;&#160;117486 bytes
+<br>HTML transferred: &#160;&#160;&#160;&#160;&#160;&#160;3852 bytes
+<br>Requests per second: &#160;&#160;&#160;5.87 [#/sec] (mean)
+<br>Time per request: &#160;&#160;&#160;&#160;&#160;&#160;5107.387 [ms] (mean)
+<br>Time per request: &#160;&#160;&#160;&#160;&#160;&#160;170.246 [ms] (mean, across all concurrent requests)
+<br>Transfer rate: &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0.67 [Kbytes/sec] received
+<br>
+<br>Connection Times (ms)
+<br> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;min &#160;mean[+/-sd] median &#160;&#160;max
+<br>Connect: &#160;&#160;&#160;&#160;&#160;&#160;&#160;0 1119 2497.7 &#160;&#160;&#160;&#160;&#160;0 &#160;&#160;15487
+<br>Processing: &#160;&#160;&#160;&#160;2 3367 13574.4 &#160;&#160;&#160;866 &#160;106720
+<br>Waiting: &#160;&#160;&#160;&#160;&#160;&#160;&#160;0 1165 3459.6 &#160;&#160;&#160;812 &#160;&#160;56111
+<br>Total: &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;2 4486 13762.2 &#160;&#160;1380 &#160;107747
+<br>
+<br>Percentage of the requests served within a certain time (ms)
+<br> &#160;50% &#160;&#160;1380
+<br> &#160;66% &#160;&#160;1942
+<br> &#160;75% &#160;&#160;2583
+<br> &#160;80% &#160;&#160;3579
+<br> &#160;90% &#160;&#160;7825
+<br> &#160;95% &#160;16849
+<br> &#160;98% &#160;31599
+<br> &#160;99% &#160;107747
+<br> 100% &#160;107747 (longest request)
+<br><span style="font-weight:bold;color:#54ff54;background-color:#000000;">pristiz@pristiz</span><span style="color:#ffffff;background-color:#000000;">:</span><span style="font-weight:bold;color:#5454ff;background-color:#000000;">~</span><span style="color:#ffffff;background-color:#000000;">$ ab -n 1000 -c 50 -r -k -s 99999 http://127.0.0.1:46000/ &#160;</span><br>This is ApacheBench, Version 2.3 &lt;$Revision: 1843412 $&gt;
+<br>Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+<br>Licensed to The Apache Software Foundation, http://www.apache.org/
+<br>
+<br>Benchmarking 127.0.0.1 (be patient)
+<br>Completed 100 requests
+<br>Completed 200 requests
+<br>Completed 300 requests
+<br>Completed 400 requests
+<br>Completed 500 requests
+<br>Completed 600 requests
+<br>Completed 700 requests
+<br>Completed 800 requests
+<br>Completed 900 requests
+<br>Completed 1000 requests
+<br>Finished 1000 requests
+<br>
+<br>
+<br>Server Software: &#160;&#160;&#160;&#160;&#160;&#160;&#160;myserver/1.0
+<br>Server Hostname: &#160;&#160;&#160;&#160;&#160;&#160;&#160;127.0.0.1
+<br>Server Port: &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;46000
+<br>
+<br>Document Path: &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/
+<br>Document Length: &#160;&#160;&#160;&#160;&#160;&#160;&#160;4 bytes
+<br>
+<br>Concurrency Level: &#160;&#160;&#160;&#160;&#160;50
+<br>Time taken for tests: &#160;&#160;354.162 seconds
+<br>Complete requests: &#160;&#160;&#160;&#160;&#160;1000
+<br>Failed requests: &#160;&#160;&#160;&#160;&#160;&#160;&#160;384
+<br> &#160;&#160;(Connect: 0, Receive: 128, Length: 128, Exceptions: 128)
+<br>Non-2xx responses: &#160;&#160;&#160;&#160;&#160;872
+<br>Keep-Alive requests: &#160;&#160;&#160;0
+<br>Total transferred: &#160;&#160;&#160;&#160;&#160;106384 bytes
+<br>HTML transferred: &#160;&#160;&#160;&#160;&#160;&#160;3488 bytes
+<br>Requests per second: &#160;&#160;&#160;2.82 [#/sec] (mean)
+<br>Time per request: &#160;&#160;&#160;&#160;&#160;&#160;17708.086 [ms] (mean)
+<br>Time per request: &#160;&#160;&#160;&#160;&#160;&#160;354.162 [ms] (mean, across all concurrent requests)
+<br>Transfer rate: &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0.29 [Kbytes/sec] received
+<br>
+<br>Connection Times (ms)
+<br> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;min &#160;mean[+/-sd] median &#160;&#160;max
+<br>Connect: &#160;&#160;&#160;&#160;&#160;&#160;&#160;0 1354 2956.2 &#160;&#160;&#160;&#160;&#160;0 &#160;&#160;15487
+<br>Processing: &#160;&#160;&#160;&#160;6 13264 40737.4 &#160;&#160;2110 &#160;213889
+<br>Waiting: &#160;&#160;&#160;&#160;&#160;&#160;&#160;0 2198 2812.5 &#160;&#160;1514 &#160;&#160;56159
+<br>Total: &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;7 14618 40761.3 &#160;&#160;3139 &#160;214893
+<br>
+<br>Percentage of the requests served within a certain time (ms)
+<br> &#160;50% &#160;&#160;3139
+<br> &#160;66% &#160;&#160;5271
+<br> &#160;75% &#160;&#160;8036
+<br> &#160;80% &#160;10114
+<br> &#160;90% &#160;31487
+<br> &#160;95% &#160;31606
+<br> &#160;98% &#160;214893
+<br> &#160;99% &#160;214893
+<br> 100% &#160;214893 (longest request)
+<br><span style="font-weight:bold;color:#54ff54;background-color:#000000;">pristiz@pristiz</span><span style="color:#ffffff;background-color:#000000;">:</span><span style="font-weight:bold;color:#5454ff;background-color:#000000;">~</span><span style="color:#ffffff;background-color:#000000;">$ ab -n 1000 -c 100 -r -k -s 99999 http://127.0.0.1:46000/ &#160;</span><br>This is ApacheBench, Version 2.3 &lt;$Revision: 1843412 $&gt;
+<br>Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+<br>Licensed to The Apache Software Foundation, http://www.apache.org/
+<br>
+<br>Benchmarking 127.0.0.1 (be patient)
+<br>Completed 100 requests
+<br>Completed 200 requests
+<br>Completed 300 requests
+<br>Completed 400 requests
+<br>Completed 500 requests
+<br>Completed 600 requests
+<br>Completed 700 requests
+<br>Completed 800 requests
+<br>Completed 900 requests
+<br>Completed 1000 requests
+<br>Finished 1000 requests
+<br>
+<br>
+<br>Server Software: &#160;&#160;&#160;&#160;&#160;&#160;&#160;myserver/1.0
+<br>Server Hostname: &#160;&#160;&#160;&#160;&#160;&#160;&#160;127.0.0.1
+<br>Server Port: &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;46000
+<br>
+<br>Document Path: &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/
+<br>Document Length: &#160;&#160;&#160;&#160;&#160;&#160;&#160;4 bytes
+<br>
+<br>Concurrency Level: &#160;&#160;&#160;&#160;&#160;100
+<br>Time taken for tests: &#160;&#160;317.385 seconds
+<br>Complete requests: &#160;&#160;&#160;&#160;&#160;1000
+<br>Failed requests: &#160;&#160;&#160;&#160;&#160;&#160;&#160;492
+<br> &#160;&#160;(Connect: 0, Receive: 164, Length: 164, Exceptions: 164)
+<br>Non-2xx responses: &#160;&#160;&#160;&#160;&#160;855
+<br>Keep-Alive requests: &#160;&#160;&#160;0
+<br>Total transferred: &#160;&#160;&#160;&#160;&#160;104310 bytes
+<br>HTML transferred: &#160;&#160;&#160;&#160;&#160;&#160;3420 bytes
+<br>Requests per second: &#160;&#160;&#160;3.15 [#/sec] (mean)
+<br>Time per request: &#160;&#160;&#160;&#160;&#160;&#160;31738.456 [ms] (mean)
+<br>Time per request: &#160;&#160;&#160;&#160;&#160;&#160;317.385 [ms] (mean, across all concurrent requests)
+<br>Transfer rate: &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0.32 [Kbytes/sec] received
+<br>
+<br>Connection Times (ms)
+<br> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;min &#160;mean[+/-sd] median &#160;&#160;max
+<br>Connect: &#160;&#160;&#160;&#160;&#160;&#160;&#160;0 1040 2499.8 &#160;&#160;&#160;&#160;&#160;0 &#160;&#160;15488
+<br>Processing: &#160;&#160;&#160;&#160;9 20067 50985.9 &#160;&#160;&#160;779 &#160;209919
+<br>Waiting: &#160;&#160;&#160;&#160;&#160;&#160;&#160;0 1297 6773.6 &#160;&#160;&#160;613 &#160;106248
+<br>Total: &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;9 21107 50861.3 &#160;&#160;1300 &#160;210943
+<br>
+<br>Percentage of the requests served within a certain time (ms)
+<br> &#160;50% &#160;&#160;1300
+<br> &#160;66% &#160;&#160;1994
+<br> &#160;75% &#160;&#160;4055
+<br> &#160;80% &#160;&#160;8036
+<br> &#160;90% &#160;106436
+<br> &#160;95% &#160;106436
+<br> &#160;98% &#160;210942
+<br> &#160;99% &#160;210943
+<br> 100% &#160;210943 (longest request)
+<br><span style="font-weight:bold;color:#54ff54;background-color:#000000;">pristiz@pristiz</span><span style="color:#ffffff;background-color:#000000;">:</span><span style="font-weight:bold;color:#5454ff;background-color:#000000;">~</span><span style="color:#ffffff;background-color:#000000;">$ </span><br>
+<br></body>
