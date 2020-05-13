@@ -8,88 +8,13 @@
   - 
 - Tabel hasil ujicoba
   - Server Asynchronous HTTP  
-    <table>
-    <thead>
-    <tr>
-        <th>No test<br></th>
-        <th>Concurrency level<br></th>
-        <th>Time taken for test<br>(seconds)</th>
-        <th>Complete request<br></th>
-        <th>Failed request<br></th>
-        <th>Total transferred<br>(bytes)</th>
-        <th>Request per second<br></th>
-        <th>Time per request<br>(ms)</th>
-        <th>Transfer rate<br>(Kbytes/sec)</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-        <td>1</td>
-        <td>1</td>
-        <td>0.426</td>
-        <td>1000</td>
-        <td>0</td>
-        <td>122000</td>
-        <td>2344.68</td>
-        <td>0.426</td>
-        <td>279.35</td>
-    </tr>
-    <tr>
-        <td>2</td>
-        <td>5</td>
-        <td>0.416</td>
-        <td>1000</td>
-        <td>0</td>
-        <td>122000</td>
-        <td>2401.73</td>
-        <td>2.082</td>
-        <td>286.14</td>
-    </tr>
-    <tr>
-        <td>3</td>
-        <td>10</td>
-        <td><span style="font-weight:400;font-style:normal">0.573</span></td>
-        <td>1000</td>
-        <td>0</td>
-        <td>122000</td>
-        <td><span style="font-weight:400;font-style:normal">1745.28</span></td>
-        <td><span style="font-weight:400;font-style:normal">5.730</span></td>
-        <td><span style="font-weight:400;font-style:normal">207.93</span></td>
-    </tr>
-    <tr>
-        <td>4</td>
-        <td>30</td>
-        <td><span style="font-weight:400;font-style:normal">0.449</span></td>
-        <td>1000</td>
-        <td>0</td>
-        <td>122000</td>
-        <td><span style="font-weight:400;font-style:normal">2229.55</span></td>
-        <td><span style="font-weight:400;font-style:normal">13.456</span></td>
-        <td><span style="font-weight:400;font-style:normal">265.63</span></td>
-    </tr>
-    <tr>
-        <td>5</td>
-        <td>50</td>
-        <td><span style="font-weight:400;font-style:normal">0.458</span></td>
-        <td>1000</td>
-        <td>0</td>
-        <td>122000</td>
-        <td><span style="font-weight:400;font-style:normal">2181.15</span></td>
-        <td><span style="font-weight:400;font-style:normal">22.924</span></td>
-        <td><span style="font-weight:400;font-style:normal">259.86</span></td>
-    </tr>
-    <tr>
-        <td>6</td>
-        <td>100</td>
-        <td><span style="font-weight:400;font-style:normal">0.405</span></td>
-        <td>1000</td>
-        <td>0</td>
-        <td>122000</td>
-        <td><span style="font-weight:400;font-style:normal">2468.48</span><br></td>
-        <td><span style="font-weight:400;font-style:normal">40.511</span></td>
-        <td><span style="font-weight:400;font-style:normal">294.10</span></td>
-    </tr>
-    </tbody>
-    </table>
+    | No test | Concurrency level | Time taken for test (seconds) | Complete request | Failed request | Total transferred (bytes) | Request per second | Time per request (ms) | Transfer rate (Kbytes/sec) |
+    |---------|-------------------|-------------------------------|------------------|----------------|---------------------------|--------------------|-----------------------|----------------------------|
+    | 1       | 1                 | 0.426                         | 1000             | 0              | 122000                    | 2344.68            | 0.426                 | 279.35                     |
+    | 2       | 5                 | 0.416                         | 1000             | 0              | 122000                    | 2401.73            | 2.082                 | 286.14                     |
+    | 3       | 10                | 0.573                         | 1000             | 0              | 122000                    | 1745.28            | 5.730                 | 207.93                     |
+    | 4       | 30                | 0.449                         | 1000             | 0              | 122000                    | 2229.55            | 13.456                | 265.63                     |
+    | 5       | 50                | 0.458                         | 1000             | 0              | 122000                    | 2181.15            | 22.924                | 259.86                     |
+    | 6       | 100               | 0.405                         | 1000             | 0              | 122000                    | 2468.48            | 40.511                | 294.10                     |
   - Server Thread HTTP  
   tabel disini
