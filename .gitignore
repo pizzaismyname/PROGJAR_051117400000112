@@ -3,3 +3,4 @@ venv/
 .directory
 .vscode/
 tugas*/__pycache__
+uas/__pycache__
